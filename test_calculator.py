@@ -53,6 +53,5 @@ class TestCalc(unittest.TestCase):
   def test_divisionInvalid(self):
     self.assertEqual(division("test", 1), None)
 
-
 if __name__ == '__main__':
     unittest.main()
