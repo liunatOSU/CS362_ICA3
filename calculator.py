@@ -20,7 +20,7 @@ def multiplication(a,b):
     return None
   
 def division(a,b):
-  if(isinstance(a, int) and isinstance(b, int)):
+  if(isinstance(a, int) or isinstance(a, float) and isinstance(b, int) or isinstance(b, float)):
     if(b == 0):
       print("Cannot divide by 0")
       return None
