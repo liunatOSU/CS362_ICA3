@@ -45,7 +45,7 @@ class TestCalc(unittest.TestCase):
     self.assertEqual(division(16, -2), -8)
   
   def test_divisionFloat(self):
-    self.assertAlmostEqual(division(10, 4), 2.5)
+    self.assertAlmostEqual(division(10, 2.5), 4)
     
   def test_divisionZero(self):
     self.assertEqual(division(5, 0), None)
